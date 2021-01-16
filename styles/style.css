@@ -140,3 +140,31 @@ body {
     font-weight: bold;
     font-size: 30px;
 }
+
+@media all and (max-width: 800px) {
+    .l-flex {
+        height: 100vh;
+        background-image: url("../images/bg-mobile.png");
+    }
+
+    .dashboard {
+        width: 375px;
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard__info {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .dashboard__storage-left {
+        bottom: -65px;
+        right: 90px;
+        top: auto;
+        border-radius: 10px;
+    }
+
+    .dashboard__storage-left::after {
+        display: none;
+    }
+}
