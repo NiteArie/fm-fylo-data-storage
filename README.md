@@ -1,5 +1,9 @@
 # fm-fylo-data-storage (Fylo Data Storage)
 
+## Live Preview
+
+Live Preview: [https://nitearie.github.io/fm-fylo-data-storage/](https://nitearie.github.io/fm-fylo-data-storage/)
+
 ## Design Preview
 
 > Desktop
