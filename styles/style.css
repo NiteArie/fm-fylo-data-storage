@@ -7,6 +7,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
+    background-color: hsl(229, 57%, 11%);
 }
 
 .l-flex {
@@ -139,6 +140,17 @@ body {
     color: hsl(229, 57%, 11%);
     font-weight: bold;
     font-size: 30px;
+}
+
+.attribution {
+    padding: 10px;
+    font-size: 11px;
+    color: white;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 80%);
 }
 
 @media all and (max-width: 800px) {
